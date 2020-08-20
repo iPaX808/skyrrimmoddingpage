@@ -4,32 +4,38 @@
   }
   body {
     font-family: Arial;
-    padding: 10px;
+    paddings: 0px;
     background: rgb(100, 98, 98, 0.2);
     background-image: url("Hintergrundbild.jpg");
     background-attachment: fixed;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
   }
   
   /* Header/Blog Title */
   .header {
     text-align: center;
-    background: rgba(10, 102, 126, 0.466);
+    background: rgba(32, 61, 68, 0.767);
     position: center;
     align-items: center;
-    padding: 0;
+    padding: 0px;
     padding-right: 0;
     padding-left: 0;
     margin: auto;
     display: block;
     margin-top: 20px;
-    width: 956px;
-    border-radius: 4rem;
+    widtxh: 956px;
+    border-radiusp: 20px;
+    margin-top: 0px;
         }
   .header h1 {
     font-size: 64px;
     font-family: 'MedievalSharp', cursive;
     font-weight: 500;
     color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
   
   /* Style the top navigation bar */
@@ -40,8 +46,10 @@
     margin:auto;
      border-right-width: 80px;
      padding-right: 0px;
-     width: 956px;
-    border-radius: 2rem;
+     widthx: 956px;
+     borders: 5px;
+     border-radius: 0px 0px 25px 25px;
+    margin-top: 0px;
 
   }
   
@@ -51,9 +59,10 @@
     display: block;
     color: #919191;
     text-align: center;
-    padding: 14px 26px;
+    padding: 14px 26px ;
     text-decoration: none;
     border-radius:  2rem;
+    transition: 0.6s;
     
   }                 
 
@@ -61,7 +70,7 @@
   .topnav a:hover {
     background-color: #ddd;
     color: rgb(29, 115, 214);
-    border-radius: 2rem;
+    border-radius: 0.5rem;
   }
   * {box-sizing:border-box}
 
@@ -71,7 +80,7 @@
     position: relative;
     margin: auto;
     background-color: rgba(63, 62, 62, 0.521);
-    padding: 2rem;
+    padding: 10px;
   }
   
   /* Hide the images by default */
@@ -161,4 +170,9 @@
   }
   .active{
     background: rgba(12, 66, 218, 0.651);
+  
+  }
+  .p2{
+    color: white;
+    margin-bottom: 0px;
   }
