@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background: rgb(100, 98, 98, 0.2);
+    background-image: url("Hintergrundbild.jpg");
+    background-attachment: fixed;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    text-align: center;
+    background: rgba(10, 102, 126, 0.466);
+    position: center;
+    align-items: center;
+    padding: 0;
+    padding-right: 0;
+    padding-left: 0;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    width: 956px;
+    border-radius: 4rem;
+        }
+  .header h1 {
+    font-size: 64px;
+    font-family: 'MedievalSharp', cursive;
+    font-weight: 500;
+    color: white;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:auto;
+     border-right-width: 80px;
+     padding-right: 0px;
+     width: 956px;
+    border-radius: 2rem;
+
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: right;
+    display: block;
+    color: #919191;
+    text-align: center;
+    padding: 14px 26px;
+    text-decoration: none;
+    border-radius:  2rem;
+    
+  }                 
+
+    /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(29, 115, 214);
+    border-radius: 2rem;
+  }
+  .body_loadorder{
+      display:block;
+      text-align: center;
+      background: rgba(46, 46, 46, 0.9);
+      position: center;
+      align-items: center;
+      padding: ;
+      padding-right: 0;
+      padding-left: 0;
+      margin: auto;
+      display: block;
+      margin-top: 20px;
+      width: 956px;
+      border-left: 4rem;
+      
+  }   
+  .BildLoadorder{
+      padding-bottom: 10px;
+      margin-bottom: auto;
+      
+  }
+  .active{
+    background: rgba(12, 66, 218, 0.651);
+  }

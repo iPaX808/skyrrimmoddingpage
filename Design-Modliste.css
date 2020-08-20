@@ -1,0 +1,97 @@
+{
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background: rgb(100, 98, 98, 0.2);
+    background-image: url("Hintergrundbild.jpg");
+    background-attachment: fixed;
+  }
+ 
+   .header {
+        text-align: center;
+        background: rgba(87, 87, 87, 0.5);
+        position: center;
+        align-items: center;
+        padding: 30px;
+        padding-right: 5px;
+        padding-left: 5px;
+        margin: auto;
+        display: block;
+        margin-top: 20px;
+        width: 957px;
+    }
+      .header h1 {
+        font-size: 64px;
+        font-family: 'MedievalSharp', cursive;
+        font-weight: 500;
+        color: white;
+      }
+        /* Style für navigation bar */
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin:auto;
+            border-right-width: 80px;
+            padding-right: 5px;
+            padding-left: 5px;
+            width: 956px;
+            border-radius: .2rem;
+
+          }
+          
+          /* Style für die navigation links*/
+          .topnav a {
+            float: right;
+            display: block;
+            color: #919191;
+            text-align: center;
+            padding: 14px 26px;
+            text-decoration: none;
+            border-radius:  4.2rem;
+            ;
+            
+          }  
+
+    
+    ;
+    
+  }
+    /* Farbe bei "hover" ändeert sich*/
+        .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(13, 83, 211);
+    border-radius: 2rem;
+    
+  }
+  
+
+  .column {   
+    float: left;
+    width: 75%;
+    text-align: center;
+    
+
+  }
+  .activetopnav {
+    background: rgba(12, 66, 218, 0.651);
+  }
+  .textbox {
+    background-color:rgba(255, 255, 255, 0);
+    width: 956px;
+    
+    padding: 10px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    border-width: 40px; 
+   background-color: rgba(75, 62, 62, 0.87);
+   border-radius: .2px;
+}
+
+
+  
+}
