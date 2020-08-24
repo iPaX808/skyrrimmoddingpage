@@ -79,6 +79,7 @@
     float: left;
     width: 75%;
     text-align: center;
+    color:white;
   }
   
   /* Right column */
@@ -95,13 +96,15 @@
     width: 100%;
     padding: 30px;
     background-image: url(/Bilder/943148.jpg);
-    height: auto
+    height: auto;
+    color:white;
   }
   .fakeimg2 {
     background-color: #aaa;
     width: 100%;
     padding: 15px;
     background-image: url(/Bilder/Download2.gif);
+
   }
   .fakeimg3{
     background-color: #aaa;
@@ -124,6 +127,7 @@
     margin-top: 20px;
     width: 956px;
     border-left: 4rem;
+    color:white;
   }
   
   /* Clear floats after the columns */
