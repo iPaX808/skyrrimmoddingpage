@@ -5,8 +5,8 @@
   body {
     font-family: Arial;
     paddings: 0px;
-    background: rgb(100, 98, 98, 0.2);
-    background-image: url("Hintergrundbild.jpg");
+    background: rgb(44, 44, 44);
+    background-image: url("/Bilder/Hintergrundbild.jpg");
     background-attachment: fixed;
     margin-left: 0px;
     margin-right: 0px;
@@ -94,14 +94,14 @@
     background-color: #aaa;
     width: 100%;
     padding: 30px;
-    background-image: url(943148.jpg);
+    background-image: url(/Bilder/943148.jpg);
     height: auto
   }
   .fakeimg2 {
     background-color: #aaa;
     width: 100%;
     padding: 15px;
-    background-image: url(Download2.gif);
+    background-image: url(/Bilder/Download2.gif);
   }
   .fakeimg3{
     background-color: #aaa;

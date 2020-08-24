@@ -1,4 +1,4 @@
-{
+* {
     box-sizing: border-box;
     justify-content: space-between;
   }
@@ -6,11 +6,12 @@
     font-family: Arial;
     paddings: 0px;
     background: rgb(100, 98, 98, 0.2);
-    background-image: url("Hintergrundbild.jpg");
+    background-image: url("/Bilder/Hintergrundbild.jpg");
     background-attachment: fixed;
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0px;
+    
   }
   
   /* Header/Blog Title */
@@ -71,39 +72,33 @@
     background-color: #ddd;
     color: rgb(29, 115, 214);
     border-radius: 0.5rem;
-            ;
-            
-          } 
-    
   }
-  
-
-  .column {   
-    float: left;
-    width: 75%;
-    text-align: center;
-    
-
+  .body_loadorder{
+      display:block;
+      text-align: center;
+      background: rgba(46, 46, 46, 0.9);
+      position: center;
+      align-items: center;
+      padding: ;
+      padding-right: 0;
+      padding-left: 0;
+      margin: auto;
+      display: block;
+      margin-top: 20px;
+      width: 956px;
+      border-left: 4rem;
+      
+  }   
+  .BildLoadorder{
+      padding-bottom: 10px;
+      margin-bottom: auto;
+      
   }
-  .activetopnav {
+  .active{
     background: rgba(12, 66, 218, 0.651);
   }
-  .textbox {
-    background-color:rgba(255, 255, 255, 0);
-    width: 956px;
-    
-    padding: 10px;
-    margin: auto;
-    display: block;
-    margin-top: 20px;
-    border-width: 40px; 
-   background-color: rgba(75, 62, 62, 0.87);
-   border-radius: .2px;
-}
-.p2{
-  color:white;
-  margin-bottom: 0px;
-}
-
+  .p2{
+    color:white;
+     margin-bottom: 0px;
+  }
   
-}
