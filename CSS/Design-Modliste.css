@@ -106,6 +106,49 @@
   color:white;
   margin-bottom: 0px;
 }
+.collapsible {
+  background-color: rgba(65, 65, 65, 0.37);
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: auto;
+  align-items:auto;
+  display:block;
+  widht: 956px;
+}
 
-  
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  max-height: 0;
+  overflow:hidden;
+  transition: max-height 0.2s ease-out;
+}
+.box_accordion{
+  display:block;
+      text-align: center;
+      background: rgba(46, 46, 46, 0.9);
+      position: center;
+      align-items: center;
+      padding: ;
+      padding-right: 0;
+      padding-left: 0;
+      margin: auto;
+      display: block;
+      margin-top: 20px;
+      width: 956px;
+      border-lesft: 4rem;
 }
