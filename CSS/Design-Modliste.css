@@ -126,7 +126,7 @@
 
 .collapsible:after {
   content: '\002B';
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: bold;
   float: right;
   margin-left: 5px;
@@ -141,8 +141,9 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
+  background-color: #d4d4d467;
   border-radius: 0px 0px 0px 20px;
+  color:white;
 }
 .box_accordion{
   display:block;
@@ -157,5 +158,20 @@
       display: block;
       margin-top: 20px;
       width: 956px;
+      border-left: 4rem;
+}
+.boxfuerbox{
+  display:block;
+      text-align: center;
+      background: rgba(46, 46, 46, 0.9);
+      position: center;
+      align-items: center;
+      padding: ;
+      padding-right: 0;
+      padding-left: 0;
+      margin: auto;
+      display: block;
+      margin-top: 20px;
+      width: 980px;
       border-lesft: 4rem;
 }
