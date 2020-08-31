@@ -1,0 +1,1 @@
+window.alert( U will get pushed onto other Websites);
